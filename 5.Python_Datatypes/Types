@@ -1,0 +1,13 @@
+.... Data types are important concept in python the variales are stored in the different data types
+
+....Text types..str 
+....Number types..int,float,complex
+....Sequence type..list,tuple,range
+....Mapping types..dict
+....Bollean types..bool
+....Set types..set,frozenset
+....Binary types..bytes,bytearray,memoryview
+....None type..nonotype
+...
+
+print(type(variable))

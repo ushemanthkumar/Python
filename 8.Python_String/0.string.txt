@@ -1,0 +1,120 @@
+Python String
+
+1.  STRING:--
+
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+  eg:-
+        print("Hello world")
+        print('hello world')
+
+in python quotes can use inside the quotes and you can use quotes inside function and String
+  
+  eg:-
+        print("he is called 'john'")
+
+Assign String to a Variable :-
+
+    Assign a string to a variable name followed by an equal sign and the string:
+         
+    eg:-
+            a="Hello"
+            print("a")
+
+
+string and arrays :-
+  Square brackets can be used to access elements of the string.
+    
+        a="Hello"
+        print(a[2])
+
+Looping Through a String :-
+
+Since strings are arrays, we can loop through the characters in a string, with a for loop.
+
+        for x in "apple":
+            print(x)
+
+String Length:-
+
+To get the length of a string, use the len() function.
+
+    a="the best thing in the life"
+        print(len(a))
+
+
+....
+
+
+
+
+
+2.SLICING String:--
+
+you can return a range of the characters by using the slice index
+
+slicing start from the index and end of the index
+1.slice from the start [:5]
+2.slice to the end [2:]
+3.Negative indexing[:-4],[-5:],[-5:-1]
+
+
+....
+
+3. MODIFY STRING:-
+
+i. Upper case:
+                This method returns the string in upper case:
+                using this command upper().
+                
+ii. Lower case:
+                This method returns the string in lower case:
+                using this command lower().
+
+iii. Remove whitespace:
+                This method removes any whitespace from the beginning or the end:
+                using strip().
+
+iv. Replace string:
+                This method replaces a string with another string:
+                using replace().
+
+v. split string:
+                This method splits the string into substrings if it finds instances of the separator:
+                using split().
+
+......
+
+4. STRING CONCATENATION:--
+
+        To combine two strings you can use the + operator.
+
+.......
+
+5. FORMAT STRING:...
+
+    In python we can not combine the string and numbers 
+     But using python format string we can combain the string and number
+          for example :
+            age = 23
+            txt = f"my name is john , i am {age}"
+            print(txt)
+
+......
+
+6. Python - Escape Characters:--
+
+  To insert characters that are illegal in a string, use an escape character.
+  An escape character is a backslash \ followed by the character you want to insert.
+  
+Code	Result
+\'	Single Quote	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value	
+

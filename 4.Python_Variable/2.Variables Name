@@ -1,0 +1,14 @@
+legal variable
+
+myVar ----------- camel case
+MyVar ----------- pascal case
+my_var------------ Snake case
+MYVAR 
+
+
+illegal variable
+
+
+2myvar
+my-var
+my var
