@@ -1,0 +1,68 @@
+Python Operators:--
+        operators are used to perform operators on variables and values.
+            Operators are:-
+                1.Arithmetic operators
+                2.Assignment operators
+                3.Comparison operators
+                4.Logical operators
+                5.Identity operators
+                6.Membership operators
+                7.Bitwise operators
+        
+1.Python Arithmetic operators:--
+    Arithmetic operators are used with numeric values to perform common mathematical operations:
+        1.Addition(+)
+        2.Subtraction(-)
+        3.Multiplication(*)
+        4.Division(/)
+        5.Modulus(%)
+        6.Exponentiation(**)
+        7.Floor division(//)
+
+2.Python Assignment operators:--
+    Assignment operators are used to assign values to variables:
+        1.Simple Assignment(=)
+        2.Add and Assign(+=)
+        3.Subtract and Assign(-=)
+        4.Multiply and Assign(*=)
+        5.Divide and Assign(/=)
+        6.Modulo and Assign(%=)
+        7.Bitwise AND and Assign(&=)
+        8.Bitwise OR and Assign(|=)
+        9.Bitwise XOR and Assign(^=)
+        10.Left Shift and Assign(<<=)
+        11.Right Shift and Assign(>>=)
+        12.exponentiation (**=)
+
+3.Python Comparison operators:--
+    Comparison operators are used to compare two values:
+        1.Equal(==)
+        2.Not equal(!=)		
+        3.Greater than(>)		
+        4.Less than(<)
+        5.Greater than or equal to(>=)		
+        6.Less than or equal to(<=)
+
+4.Python Logical operators:--
+    Logical operators are used to combine conditional statements:
+        1.and
+        2.or
+        3.not
+
+5.Python Identity Operators:--
+    Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+        1.is ... x is y
+        2.is not ... x is not y
+6.Python Membership Operators:--
+    Membership operators are used to test if a sequence is presented in an object:
+        1.in ... x in y
+        2.not in ... x not in y
+        
+7.Python Bitwise Operators:--
+    Bitwise operators are used to compare (binary) numbers:
+        1.AND(&)
+        2.OR(|)
+        3.XOR(^)
+        4.NOT(~)
+        5.Zero fill left side(<<)... push left side zero into right side.
+        6.signed right shift(>>)...  push right side zero into left side. 
